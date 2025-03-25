@@ -7,7 +7,7 @@ import { DataSourceType, RawDataItem } from '../types';
 export async function collectWeatherData(): Promise<RawDataItem[]> {
   console.log('Collecting data from Weather Services...');
 
-  // In a real implementation, you would:
+  // In a real implementation, we would:
   // 1. Authenticate with the Weather API
   // 2. Fetch severe weather alerts and warnings
   // 3. Process and return the results

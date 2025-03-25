@@ -11,7 +11,7 @@ interface LocationInfo {
   city?: string;
 }
 
-// In a real implementation, you would use a geocoding service
+// In a real implementation, we would use a geocoding service
 // and more sophisticated NLP techniques for location extraction
 export function extractLocation(
   text: string,
@@ -38,7 +38,7 @@ export function extractLocation(
     };
   }
 
-  // Simple location extraction from text (would be more sophisticated in real app)
+  // Simple location extraction from text 
   const lowerText = text.toLowerCase();
 
   // Check for common location names in the text

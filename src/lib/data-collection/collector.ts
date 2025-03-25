@@ -158,7 +158,6 @@ function processRawData(rawData: RawDataItem[]): ProcessedEvent[] {
 // Group related items that might be referring to the same event
 function groupRelatedItems(items: RawDataItem[]): RawDataItem[][] {
   // This is a simplified grouping algorithm
-  // In a real application, you would use more sophisticated techniques
 
   const groups: RawDataItem[][] = [];
 
@@ -189,7 +188,6 @@ function groupRelatedItems(items: RawDataItem[]): RawDataItem[][] {
 // Check if two items are likely related (same event)
 function areItemsRelated(item1: RawDataItem, item2: RawDataItem): boolean {
   // This is a simplified relationship check
-  // In a real application, you would use more sophisticated techniques
 
   // Check if items are from the same time period (within 24 hours)
   const timeDiff = Math.abs(

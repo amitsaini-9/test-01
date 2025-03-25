@@ -7,7 +7,7 @@ import { DataSourceType, RawDataItem } from '../types';
 export async function collectTwitterData(): Promise<RawDataItem[]> {
   console.log('Collecting data from Twitter/X...');
 
-  // In a real implementation, you would:
+  // In a real implementation, we would:
   // 1. Authenticate with the Twitter API
   // 2. Search for tweets containing disaster-related keywords
   // 3. Process and return the results

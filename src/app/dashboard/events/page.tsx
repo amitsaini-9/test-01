@@ -1,4 +1,3 @@
-// src/app/dashboard/events/page.tsx
 "use client";
 
 import { Badge } from "@/components/ui/badge";
@@ -40,7 +39,7 @@ import {
 import Link from "next/link";
 import { useState } from "react";
 
-// Helper functions
+ Helper functions
 const getTypeColor = (type: string) => {
   switch (type) {
     case "flood":
@@ -135,7 +134,6 @@ export default function EventsPage() {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     // The search input value is already in the filters state
-    // Just keep it there to prevent form submission
   };
 
   const handleRefresh = () => {

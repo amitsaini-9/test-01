@@ -32,7 +32,7 @@ import {
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 
-// Helper functions (same as before)
+// Helper functions
 const getTypeColor = (type: string) => {
   switch (type) {
     case "flood":

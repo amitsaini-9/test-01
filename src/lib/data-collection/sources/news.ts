@@ -7,7 +7,7 @@ import { DataSourceType, RawDataItem } from '../types';
 export async function collectNewsData(): Promise<RawDataItem[]> {
   console.log('Collecting data from News API...');
 
-  // In a real implementation, you would:
+  // In a real implementation, we would:
   // 1. Authenticate with the News API
   // 2. Search for articles containing disaster-related keywords
   // 3. Process and return the results
